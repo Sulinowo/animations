@@ -7,6 +7,8 @@ const Content = styled.div`
 `; 
 
 const Header = styled.header`
+    width: 1fr;
+    height: 30vh;
     background-color: green;
     text-align: center;
     grid-column: 1 / span 6;
@@ -24,6 +26,8 @@ const Header = styled.header`
      } 
 `;
 const Menu = styled.div`
+    width: 1fr;
+    height: 30vh;
     background-color:blue;
     text-align:center;
     grid-column: 1/ span 2;
@@ -46,6 +50,8 @@ const Menu = styled.div`
 `;
 
 const Main = styled.div`
+    width: 1fr;
+    height: 60vh;
     background-color:red;
     text-align:center;
     grid-column: 3/ span 3;
@@ -63,6 +69,8 @@ const Main = styled.div`
      }
 `;
 const Ad = styled.div`
+    width: 1fr;
+    height: 30vh;
     background-color:purple;
     text-align: center;
     grid-column: 1/ span 2;
@@ -80,6 +88,8 @@ const Ad = styled.div`
      }  
 `;
 const Footer = styled.footer`
+    width: 1fr;
+    height: 20vh;
     background-color:pink;
     text-align:center;
     grid-column: 1 / span 6;
